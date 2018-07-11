@@ -4,7 +4,9 @@
   "description": "* node.js:",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^4.0.0-alpha.3"
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.0-alpha.3",
+    "normalize.scss": "^0.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.24.5",
