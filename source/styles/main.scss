@@ -1,5 +1,23 @@
-@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
 @import "../../node_modules/normalize.scss/normalize";
+// Global
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+@import "global/common";
+@import "global/sprite";
+@import "global/button";
+// Sections
+@import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
+// @import "sections/header";
 body {
-    background: yellow;
+    background: white;
 }
