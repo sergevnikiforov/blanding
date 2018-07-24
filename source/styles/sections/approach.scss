@@ -26,6 +26,12 @@
                 @media (max-width: 700px) {
                     display: block;
                 }
+                .approach__text {
+                    padding: 70px 90px 55px 90px;
+                    @media (max-width: 985px) {
+                        padding: 25px 20px;
+                    }
+                }
                 .approach__step {
                     right: auto;
                     left: -52px;
@@ -68,7 +74,7 @@
         }
         &__step {
             @include centerer-y();
-            right: -58px;
+            right: -52px;
             width: 103px;
             height: 103px;
             padding-top: 10px;
