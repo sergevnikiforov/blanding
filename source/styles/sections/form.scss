@@ -21,6 +21,7 @@
         height: 65px;
         border-radius: 50%;
         border: 2px solid #ffffff;
+        cursor: pointer;
     }
     .arrow-down {
         @include centerer-xy();
@@ -51,6 +52,7 @@
         top: -59px;
     }
     &__close-button {
+        outline: 0;
         position: absolute;
         right: -16px;
         top: -22px;
