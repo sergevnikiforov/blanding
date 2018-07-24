@@ -2,6 +2,9 @@
     padding: 100px 0 110px 0;
     color: #fff;
     background-color: #1287bf;
+    @media (max-width: 985px) {
+        padding: 50px 0 55px 0;
+    }
     .title {
         margin-bottom: 12px;
     }
@@ -33,6 +36,10 @@
     color: #828282;
     text-align: center;
     background-color: #ffffff;
+    @media (max-width: 985px) {
+        width: 90%;
+        padding: 25px;
+    }
     &-container {
         padding-top: 30px;
     }
