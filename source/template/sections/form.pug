@@ -14,8 +14,8 @@ section.form-section
                     for your business + Learn How To Use Google
 
                 .form__fields
-                    input.form__input(type="text" placeholder="Your name")
-                    input.form__input(type="text" placeholder="Contact Number")
-                    input.form__input(type="text" placeholder="Contact Name")
+                    input.form__input(type="text" placeholder="Your name" data-valid="required" required)
+                    input.form__input(type="email" placeholder="Email" data-valid="required" data-email required)
+                    input.form__input(type="text" placeholder="Contact Number" data-valid="required" data-number required)
 
                 button(type="submit").button.button--text-uppercase.button--red Submit now
